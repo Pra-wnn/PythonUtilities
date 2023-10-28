@@ -13,7 +13,7 @@ def organize(path):
             
             if ext.endswith(('.jpg','.jpeg','.png','.gif','.htm','.webp')):
                 # use tuple for more than 3 arguments ends with
-                # print(ext)
+                
                 if not os.path.exists("PicturesAnime"):
                     os.mkdir("PicturesAnime")
                 shutil.move(i,path+"\\"+"PicturesAnime"+"\\")
