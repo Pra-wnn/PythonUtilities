@@ -13,18 +13,18 @@ def organize(path):
             
             if ext.endswith(('.jpg','.jpeg','.png','.gif','.htm','.webp')):
                 # use tuple for more than 3 arguments ends with
-                # print(ext)
+        
                 if not os.path.exists("PicturesAnime"):
                     os.mkdir("PicturesAnime")
                 shutil.move(i,path+"\\"+"PicturesAnime"+"\\")
             elif ext.endswith(('.html','.pdf','.txt')):
-                # print(ext)
+           
                 if not os.path.exists("Otherfiles"):
                     os.mkdir("Otherfiles")
                 shutil.move(i,path+"\\"+"Otherfiles"+"\\")
             
             elif ext.endswith('.mp4'):
-                # print(ext)
+              
                 if not os.path.exists("mp4s"):
                     os.mkdir("mp4s")
                 shutil.move(i,path+"\\"+"mp4s"+"\\")
