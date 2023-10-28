@@ -35,6 +35,7 @@ def organize(path):
                 path1 = os.path.join(parent,direct)
                 os.makedirs(path1,exist_ok=True)   
                 #  pls use this if u want abs path done and check if it exists or not
+                # exceptiojn halndling in later patches
                 # print(i)
                 shutil.move(i,path1)
                 # print(path1)
