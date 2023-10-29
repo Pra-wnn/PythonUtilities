@@ -1,1 +1,1 @@
-#Scans the system for
+#Scans the system for any anomalies
